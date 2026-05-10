@@ -1,0 +1,111 @@
+trip:
+  title: "Ireland + Scotland Family Itinerary Workspace"
+  last_updated: "2026-05-10 final-tightened"
+  travelers:
+    adults: 2
+    teens: 3
+    total: 5
+  dates:
+    depart_us: "2026-05-24"
+    arrive_dublin: "2026-05-25 morning"
+    locked_return: "2026-06-03 11:00 Europe/Dublin from Dublin Airport (DUB)"
+  route_flow:
+    - dates: "May 25-27"
+      base: "Edinburgh, Scotland"
+      nights: 2
+      lodging_style: "central hotel/aparthotel; no car"
+    - dates: "May 27-28"
+      base: "Belfast / Northern Ireland"
+      nights: 1
+      lodging_style: "city-center hotel/aparthotel; pick up rental car after Scotland flight"
+    - dates: "May 28-29"
+      base: "Galway / Salthill"
+      nights: 1
+      lodging_style: "walkable Galway or Salthill base with parking"
+    - dates: "May 29-30"
+      base: "County Clare castle stay"
+      nights: 1
+      lodging_style: "castle/resort night between West Ireland and Kerry"
+    - dates: "May 30-Jun 1"
+      base: "Killarney / Kerry"
+      nights: 2
+      lodging_style: "Killarney base for Dingle Peninsula"
+    - dates: "Jun 1-2"
+      base: "Kilkenny logical return stop"
+      nights: 1
+      lodging_style: "medieval city stop to avoid a long same-day run to Dublin"
+    - dates: "Jun 2-3"
+      base: "Dublin Airport area"
+      nights: 1
+      lodging_style: "airport hotel for easy 11:00 AM departure"
+  transportation:
+    outbound_to_scotland:
+      plan: "Fly Dublin (DUB) to Edinburgh (EDI) on May 25 after landing in Dublin. Use a relaxed afternoon/evening flight; do not schedule tight sightseeing immediately after the transatlantic arrival."
+      verify_before_booking: "Exact May 25, 2026 airline schedule, bags, terminal timing, and misconnect protection."
+    scotland_to_ireland:
+      preferred: "Fly Edinburgh (EDI) to Belfast City (BHD) on May 27 if timing/pricing works."
+      compare: "Belfast International (BFS), especially if a significantly better fare/time is available."
+      fallback: "Fly Edinburgh to Dublin only if Belfast pickup/Dublin Airport drop-off rental fees are too high or Belfast flights are unavailable/unreasonable."
+      route_evidence: "Official airport route pages currently show Edinburgh has Belfast and Dublin routes, and Belfast City lists Edinburgh as a route; May 2026 flight times/prices must still be verified with airlines before booking."
+    rental_car:
+      pickup: "Belfast after Scotland return flight on May 27; no rental car before Scotland."
+      return: "Dublin Airport on June 2 evening or June 3 morning before the 11:00 AM flight; June 2 evening is lower-stress if hotel shuttle works."
+      vehicle: "Automatic 7-seat/large SUV or van with luggage capacity for 5 people."
+      fee_flags:
+        - "Verify one-way fee for Belfast pickup / Dublin Airport drop-off."
+        - "Verify cross-border permission and any Northern Ireland to Republic of Ireland surcharge."
+        - "Verify insurance coverage, young driver exclusions if applicable, and luggage fit."
+  constraints:
+    - "Return flight is locked: do not move June 3, 2026 11:00 AM DUB departure."
+    - "No ferry/coach route unless flights are unavailable or pricing is unreasonable."
+    - "No rental car pickup until after Scotland."
+    - "Final night must be near Dublin Airport; no long drive on departure morning."
+    - "Flag any day with more than 3.5 hours of driving."
+    - "Lodging recommendations are separate from the itinerary."
+    - "Do not invent opening hours, prices, flight schedules, restaurant availability, or Airbnb availability; verify before booking."
+  core_must_dos:
+    edinburgh:
+      iconic: ["Edinburgh Castle", "Royal Mile", "Victoria Street", "Princes Street Gardens", "Calton Hill or Arthur's Seat viewpoint"]
+      teen_friendly: ["Camera Obscura", "The Chocolatarium", "shopping on Princes/George Street", "cute cafés and sweets"]
+    northern_ireland:
+      iconic: ["Titanic Belfast", "Black Cab political murals tour"]
+      note: "Titanic Belfast makes sense in the short Belfast window. Black Cab/murals are worthwhile but should be an optional swap rather than an add-on. Giant's Causeway is not recommended on this compressed routing because it makes the westbound Galway transfer too long."
+    west_ireland:
+      iconic: ["Galway Latin Quarter", "Salthill Prom", "Cliffs of Moher"]
+      hidden_gems: ["Dunguaire Castle photo stop", "The Burren/Kilfenora", "Menlo Castle ruins from a safe viewpoint"]
+    castle_stay:
+      recommended: "Dromoland Castle, County Clare"
+      backups: ["Glenlo Abbey Hotel & Estate, Galway", "Ballyseede Castle, Tralee"]
+    kerry:
+      recommendation: "Dingle Peninsula over full Ring of Kerry for this family because it is more compact, beachy, colorful, teen-friendly, and less all-day windshield time from Killarney."
+    return_to_dublin:
+      recommended_stop: "Rock of Cashel on June 1, then Kilkenny overnight; this breaks up Kerry-to-Dublin and adds a major castle/medieval photo stop."
+  restaurants:
+    source_file: "restaurants_by_day.md"
+    rule: "All restaurant picks include official/source links and should be rechecked for May/June 2026 hours, reservations, and menus before booking."
+  booking_priorities:
+    high:
+      - "Transatlantic connection protection and Dublin-to-Edinburgh flight on May 25"
+      - "Edinburgh-to-Belfast flight on May 27"
+      - "Rental car one-way/cross-border terms"
+      - "Dromoland Castle or backup castle stay"
+      - "Family rooms/apartments for 5 in Edinburgh, Killarney, and Dublin Airport"
+    medium:
+      - "Edinburgh Castle timed entry"
+      - "Camera Obscura / Chocolatarium"
+      - "Titanic Belfast timed tickets; Black Cab tour only as optional Belfast swap"
+      - "Cliffs of Moher parking/visitor center"
+      - "Jaunting car or Dingle boat/sea safari if desired"
+    low:
+      - "Casual cafés and bakeries unless brunch is popular"
+      - "Flexible scenic stops and beaches"
+qa_pass:
+  scotland_front_loaded: true
+  fly_dub_to_edi: true
+  fly_edi_back_to_ireland: true
+  no_car_until_after_scotland: true
+  road_trip_starts_after_scotland: true
+  lodging_changes_reduce_drive_time: true
+  castle_logical_between_west_and_kerry: true
+  final_night_near_dub_airport: true
+  rushed_days_adjusted: "Quality-over-quantity pacing with downtime included; Belfast no longer stacks Titanic plus Black Cab after the flight; Belfast-to-Galway, Dingle, and Killarney-to-Kilkenny are flagged and simplified."

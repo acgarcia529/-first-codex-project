@@ -1,0 +1,32 @@
+Category,Item,Priority,Target date/time,Booking notes,Source link,Status
+Flights,U.S. to Dublin,High,Depart May 24 2026,"Return is locked at DUB Jun 3 11:00; verify baggage and connection plan",Airline booking,Verify/book
+Flights,Dublin to Edinburgh,High,May 25 afternoon/evening,"Book relaxed timing after transatlantic arrival; do not schedule tight sightseeing",Airline booking,Verify/book
+Flights,Edinburgh to Belfast City,High,May 27 morning/midday,"Preferred return airport; verify direct flight schedule and baggage",Airline booking,Verify/book
+Flights,Edinburgh to Belfast International comparison,High,May 27,"Compare if cheaper/better timing than BHD",Airline booking,Compare
+Flights,Edinburgh to Dublin fallback,Medium,May 27,"Use only if Belfast rental fees are too high or Belfast flights unreasonable",Airline booking,Fallback
+Rental car,Belfast pickup to Dublin Airport drop,High,May 27-Jun 2/3,"Verify one-way fee, cross-border fee, automatic 7-seater luggage fit, insurance",Rental agency,Verify/book
+Lodging,Edinburgh 2 nights,High,May 25-27,"Central Old Town/New Town or aparthotel; no car parking needed",https://www.marriott.com/,Verify/book
+Lodging,Belfast 1 night,High,May 27-28,"Cathedral/Titanic/Linen Quarter; confirm parking",https://www.marriott.com/,Verify/book
+Lodging,Galway/Salthill 1 night,High,May 28-29,"Salthill/West End with parking and walkable dinner",https://www.salthillhotel.com/,Verify/book
+Castle stay,Dromoland Castle,High,May 29-30,"Recommended castle night; reserve room for 5/connecting rooms and dinner",https://www.dromoland.ie/,Verify/book
+Castle stay,Glenlo Abbey backup,Medium,May 29-30,"Backup closer to Galway",https://www.glenloabbeyhotel.ie/,Backup
+Castle stay,Ballyseede Castle backup,Medium,May 29-30,"Backup closer to Kerry",https://www.ballyseedecastle.com/,Backup
+Lodging,Killarney 2 nights,High,May 30-Jun 1,"Town center or Muckross Road; parking; washer/dryer if apartment",https://www.gleneaglehotel.com/,Verify/book
+Lodging,Kilkenny 1 night,Medium,Jun 1-2,"Medieval Mile walkability; parking",https://www.pembrokekilkenny.com/,Verify/book
+Lodging,Dublin Airport final night,High,Jun 2-3,"Airport hotel or Swords/Malahide only if transfer is simple",https://www.maldronhoteldublinairport.com/,Verify/book
+Attraction,Edinburgh Castle,High,May 26 morning,"Timed entry; book ahead",https://www.edinburghcastle.scot/,Verify/book
+Attraction,Camera Obscura,Medium,May 26 late morning,"Teen-friendly and rain-proof",https://www.camera-obscura.co.uk/,Verify/book
+Attraction,The Chocolatarium,Medium,May 26 afternoon,"Chocolate workshop; reserve",https://www.chocolatarium.co.uk/,Verify/book
+Attraction,Titanic Belfast,High,May 27 afternoon,"Timed tickets; works well after BHD arrival",https://www.titanicbelfast.com/,Verify/book
+Attraction,Black Cab tour optional swap,Medium,May 27,"Book only as a swap for Titanic or if flight lands early and family has energy; request family-friendly balanced-history guide",https://www.visitbelfast.com/,Optional
+Attraction,Cliffs of Moher,High,May 29 afternoon,"Verify visitor center/tickets/weather safety",https://www.cliffsofmoher.ie/,Verify/book
+Attraction,Dromoland estate activity,Medium,May 29/30,"Falconry/estate options if budget and weather allow",https://www.dromoland.ie/,Verify/book
+Attraction,Dingle Peninsula/Slea Head,Medium,May 31,"Weather-dependent; keep stops selective",https://www.discoverireland.ie/,Flexible
+Attraction,Rock of Cashel,High,Jun 1 late morning,"Logical route stop; verify ticket/hours",https://heritageireland.ie/places-to-visit/rock-of-cashel/,Verify/book
+Restaurant,Edinburgh dinner,Medium,May 25-26,"Reserve one Howies/Vittoria/Dishoom/Contini meal",https://www.howies.uk.com/,Verify/book
+Restaurant,Belfast dinner,Medium,May 27,"Reserve Home/Made in Belfast/Coppi",https://homebelfast.co.uk/,Verify/book
+Restaurant,Galway dinner,Medium,May 28,"Reserve Ard Bia or John Keogh's",https://www.ardbia.com/,Verify/book
+Restaurant,Castle dinner,High,May 29,"Reserve Dromoland or nearby backup",https://www.dromoland.ie/dining/,Verify/book
+Restaurant,Killarney dinners,Medium,May 30-31,"Reserve Bricín/Treyvaud's/Laurels",https://www.bricin.com/,Verify/book
+Restaurant,Kilkenny dinner,Medium,Jun 1,"Reserve Petronella/Rive Gauche",https://www.petronella.ie/,Verify/book
+Restaurant,Final Dublin Airport dinner,Low,Jun 2,"Old Street Malahide or easy hotel dinner",https://oldstreet.ie/,Verify/book

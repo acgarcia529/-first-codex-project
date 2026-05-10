@@ -1,0 +1,106 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Codex//Ireland Scotland Family Itinerary//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ireland + Scotland Family Trip 2026
+X-WR-TIMEZONE:Europe/Dublin
+BEGIN:VEVENT
+UID:20260524-us-depart@ireland-scotland-trip
+DTSTAMP:20260510T000000Z
+DTSTART;VALUE=DATE:20260524
+DTEND;VALUE=DATE:20260525
+SUMMARY:Depart U.S. for Dublin
+DESCRIPTION:Overnight transatlantic flight. Hydrate, sleep, and keep essentials in carry-ons.
+END:VEVENT
+BEGIN:VEVENT
+UID:20260525-arrive-dub-fly-edi@ireland-scotland-trip
+DTSTAMP:20260510T000000Z
+DTSTART:20260525T070000
+DTEND:20260525T211500
+SUMMARY:Arrive Dublin; fly to Edinburgh; easy first night
+LOCATION:Dublin Airport / Edinburgh
+DESCRIPTION:Morning Dublin arrival, airport buffer, afternoon/evening DUB to EDI flight to verify, Edinburgh check-in, easy dinner and optional gentle walk. No rental car.
+END:VEVENT
+BEGIN:VEVENT
+UID:20260526-edinburgh-classics@ireland-scotland-trip
+DTSTAMP:20260510T000000Z
+DTSTART:20260526T080000
+DTEND:20260526T211500
+SUMMARY:Edinburgh Castle, Camera Obscura, Chocolatarium, Calton Hill
+LOCATION:Edinburgh
+DESCRIPTION:Clustered Old Town/New Town day with Castle, Camera Obscura, Victoria Street, Chocolatarium, shopping/downtime, and sunset viewpoint.
+END:VEVENT
+BEGIN:VEVENT
+UID:20260527-edi-belfast@ireland-scotland-trip
+DTSTAMP:20260510T000000Z
+DTSTART:20260527T073000
+DTEND:20260527T213000
+SUMMARY:Fly Edinburgh to Belfast; Titanic Belfast and Black Cab tour
+LOCATION:Edinburgh Airport / Belfast
+DESCRIPTION:Fly EDI to Belfast City preferred. Pick up rental car only after Scotland. Recommended: Titanic Belfast, rest, Cathedral Quarter street art and dinner. Black Cab is an optional swap, not an add-on.
+END:VEVENT
+BEGIN:VEVENT
+UID:20260528-belfast-galway@ireland-scotland-trip
+DTSTAMP:20260510T000000Z
+DTSTART:20260528T080000
+DTEND:20260528T210000
+SUMMARY:Belfast to Galway/Salthill transfer
+LOCATION:Belfast / Enniskillen or Athlone / Galway
+DESCRIPTION:Long driving day over 3.5 hours. Strategic stretch/lunch stops, Salthill Prom, Galway dinner and Latin Quarter stroll.
+END:VEVENT
+BEGIN:VEVENT
+UID:20260529-galway-cliffs-dromoland@ireland-scotland-trip
+DTSTAMP:20260510T000000Z
+DTSTART:20260529T080000
+DTEND:20260529T210000
+SUMMARY:Galway, Dunguaire, Burren, Cliffs of Moher, castle night
+LOCATION:Galway / Cliffs of Moher / Dromoland Castle
+DESCRIPTION:Scenic west-to-Clare day with Dunguaire photo stop, Burren, Cliffs of Moher, Dromoland Castle check-in and dinner.
+END:VEVENT
+BEGIN:VEVENT
+UID:20260530-dromoland-killarney@ireland-scotland-trip
+DTSTAMP:20260510T000000Z
+DTSTART:20260530T083000
+DTEND:20260530T210000
+SUMMARY:Castle morning to Killarney National Park
+LOCATION:Dromoland / Adare or Bunratty / Killarney
+DESCRIPTION:Enjoy castle breakfast and grounds, drive to Killarney, check in, Ross Castle/Torc/Muckross sampler, Killarney dinner.
+END:VEVENT
+BEGIN:VEVENT
+UID:20260531-dingle-peninsula@ireland-scotland-trip
+DTSTAMP:20260510T000000Z
+DTSTART:20260531T080000
+DTEND:20260531T210000
+SUMMARY:Dingle Peninsula day trip from Killarney
+LOCATION:Killarney / Inch Beach / Dingle / Slea Head
+DESCRIPTION:Long scenic driving day over 3.5 hours. Inch Beach, Dingle town lunch, Slea Head highlights, ice cream/harbor, return Killarney.
+END:VEVENT
+BEGIN:VEVENT
+UID:20260601-killarney-cashel-kilkenny@ireland-scotland-trip
+DTSTAMP:20260510T000000Z
+DTSTART:20260601T080000
+DTEND:20260601T210000
+SUMMARY:Killarney to Kilkenny via Rock of Cashel
+LOCATION:Killarney / Rock of Cashel / Kilkenny
+DESCRIPTION:Long repositioning day over 3.5 hours. Rock of Cashel and Hore Abbey photo option, Kilkenny Medieval Mile and dinner.
+END:VEVENT
+BEGIN:VEVENT
+UID:20260602-kilkenny-dublin-airport@ireland-scotland-trip
+DTSTAMP:20260510T000000Z
+DTSTART:20260602T080000
+DTEND:20260602T210000
+SUMMARY:Kilkenny to Dublin sampler and airport hotel
+LOCATION:Kilkenny / Dublin / Dublin Airport
+DESCRIPTION:Light Dublin city sampler, Grafton Street/sweets/shopping, airport hotel check-in, rental car return if practical, final packing.
+END:VEVENT
+BEGIN:VEVENT
+UID:20260603-dub-depart@ireland-scotland-trip
+DTSTAMP:20260510T000000Z
+DTSTART:20260603T063000
+DTEND:20260603T110000
+SUMMARY:Dublin Airport departure at 11:00 AM
+LOCATION:Dublin Airport
+DESCRIPTION:Hotel breakfast/shuttle, arrive around 3 hours before U.S.-bound flight, check-in/security/preclearance, depart 11:00 AM.
+END:VEVENT
+END:VCALENDAR
